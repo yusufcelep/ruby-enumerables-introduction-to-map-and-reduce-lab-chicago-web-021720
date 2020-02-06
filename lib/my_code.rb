@@ -1,5 +1,10 @@
 def map_to_negativize(source_array)
-  
+  i = 0 
+  for i < source_array.length
+    if source_array[i] > 0
+      
+    source_array[i] * -1
+  end
 end
 
 def map_to_change(source_array)
